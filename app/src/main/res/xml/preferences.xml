@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.rarepebble.colorpicker.ColorPreference
+        android:id="@+id/color_picker"
+        android:key="pref_background_color"
+        android:title="@string/pref_bgd_color_title"
+        android:summary="@string/pref_bgd_color_summary"
+        android:defaultValue="#FFFF00"
+        />
+    <CheckBoxPreference
+        android:id="@+id/enable_clear_button"
+        android:key="@string/pref_clear_button"
+        android:title="@string/pref_clear_button_title"
+        android:summary="@string/pref_clear_button_summary"
+        >
+
+    </CheckBoxPreference>
+
+    <!--This shit didn't work, only thumbnail changes: app:colorpicker_selectNoneButtonText="No color"
+        app:colorpicker_noneSelectedSummaryText="Default color selected"-->
+</PreferenceScreen>
