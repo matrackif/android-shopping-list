@@ -15,6 +15,7 @@
         android:key="@string/pref_clear_button"
         android:title="@string/pref_clear_button_title"
         android:summary="@string/pref_clear_button_summary"
+        android:defaultValue="true"
         >
 
     </CheckBoxPreference>
